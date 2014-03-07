@@ -90,10 +90,175 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
+body{
+		background-color: grey;
+	}
+
+#wrapper{
+		width: 980px;
+		margin-left: auto;
+		margin-right: auto;
+		background-color: white;
+	}
 
 
+#primary_links li{
+		display:inline;
+		text-transform: uppercase;
+		
+}
+	
+#primary_links a{
+		letter-spacing:3px;
+		color:white;
+		text-decoration: none;
+		
+	}
+#primary_links{
+		background-color: #3f8252;
+		height: 72px;
+		line-height: 72px;
+		text-align: center;
+		word-spacing:80px;
+}
 
+#primary_links ul{
+	margin-top:0px;
+	margin-bottom:0px
+	}
 
+#logo img {
+	width: 194px;
+	height: 64px;
+	}
+
+#bbblogo img{
+	margin-left:300px;
+	height: 32px;
+	width: 124px;
+}
+
+#telnr img{
+	height:28px;
+	width:200px;
+	margin-left:45px;
+}
+#fblogo img{
+	height:32px;
+	width:32px;
+	margin-left:875px;
+	margin-top:-90px
+}
+
+#content{
+	font-family: arial;
+}
+
+#callus {
+text-align: center;
+color: #5d5d5d;
+font-size: 36px;
+margin-top: 25px;
+}
+
+#werdedicated {
+text-align: center;
+color: #5d5d5d;
+font-size: 16px;
+margin-top: 0px;
+}
+
+#serving{
+color: #3f8252;
+text-align: center;
+font-size: 14px;
+font-weight: bold;
+margin-top: 20px;
+letter-spacing: 9px;
+}
+
+#video{
+	text-align:center;
+	margin-top:35px;
+}
+
+#likefb img{
+	width: 980px;
+margin-top: 33px;
+}
+
+#welcometo{
+	line-height:0.8;
+	color:#2c2c2c;
+	margin-top:33px;
+	width: 490px;
+	font-size: 14px;
+}	
+
+#fullinsured{
+	font-size: 14px;
+	margin-top: -149px;
+	line-height: 0.8;
+	margin-left: 604px;
+}
+
+#heatingblog{
+	background-color: #eef1f5;
+	width: 100%;
+	height: 402px;
+	text-align: center;
+	font-size: 14px;
+	color: #2c2c2c;
+	line-height: 8px;
+	}
+
+#spacer{
+	height:20px;
+}
+
+#heatingheader{
+	letter-spacing:9px ;
+	color:#c0392b;
+	font-size:30px;
+	
+}
+#letter img{
+	width: 240px;
+	height: 175px;
+	padding:19px;
+}
+
+#coolingblog{
+	width: 100%;
+	height: 402px;
+	text-align: center;
+	font-size: 14px;
+	color: #2c2c2c;
+	line-height: 8px;
+}
+
+#coolingheader{
+	letter-spacing:9px ;
+	color:#2980b9;
+	font-size:30px;
+	
+}
+
+#coolingpic img{
+	width: 240px;
+	height: 175px;
+	padding:19px;
+}
+	
+	
+	
+	/*
+	   aptanavfs5222055044157429710main.css
+	   Is117
+			   Created by Alexander Czempik on 2014-02-28.
+	   Copyright 2014 Alexander Czempik. All rights reserved.
+	*/
+	
 
 
 
