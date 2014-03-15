@@ -14,9 +14,19 @@
         <script src="js/vendor/modernizr-2.7.1.min.js"></script>
     </head>
     <body>
+    	<div id="fb-root"></div>
+		<script>(function(d, s, id) {
+  			var js, fjs = d.getElementsByTagName(s)[0];
+			  if (d.getElementById(id)) return;
+			  js = d.createElement(s); js.id = id;
+ 			 js.src = "//connect.facebook.net/en_US/all.js#xfbml=1";
+ 			 fjs.parentNode.insertBefore(js, fjs);
+			}(document, 'script', 'facebook-jssdk'));
+		</script>
+		
     	<div id="wrapper">
     		
-    		<div id="branding">
+    	<div id="branding">
     		
     		<span id="logo">
     			<img src="img/logo.jpg" alt="logo">
@@ -30,10 +40,10 @@
     		<span id="fblogo">
     			<img src="img/fblogo.jpg" alt"fblogo">
     		</span>
+    	</div>
+    	</div>
     		
-    		</div>
-    		
-    		<div id="primary_links">
+    	<div id="primary_links">
 				<ul>
 					<li><a href="">Services</a></li>
 					<li><a href="">Cooling</a></li>
@@ -41,10 +51,10 @@
 					<li><a href="">About</a></li>
 					<li><a href="">Contact</a></li>
 				</ul> 
-			</div>
+		</div>
 			
-    		<div id="content">
-    		
+    	<div id="content">
+    			<div id="s1"></div>
     			<div id="callus">
     				Call us now for an estimate at 1-800-555-5555
     			</div>
@@ -63,10 +73,26 @@
 					</video>
 				</div>
 
-    			<div id="likefb">
-    				<img src="img/likefb.jpg" alt"likefb">
+    			<div id="fbbanner">
+    				<span id="fblogowhitel">
+    					<img src="img/fblogowhite.png" alt"fblogow"
+    				</span>
+    				<span id="likeus">
+    					<b>Like us on Facebook</b> for our current offers and deals!
+    				</span>
+    				<span id="fb-like">
+    				<div class="fb-like" 
+    					data-href="http://web.njit.edu/~ac542/homework2/" 
+    					data-layout="button_count" 
+    					data-action="like" 
+    					data-show-faces="false" 
+    					data-share="false">
+    				</div>
+    				</span>
+    				<span id="fblogowhiter">
+    					<img src="img/fblogowhite.png" alt"fblogow"
+    				</span>
     			</div>
-    			
     			<div id="welcometo">
     				<p><b>WELCOOME TO EMPIRE HEATING and COOLING</b></p>
     				<p>Whether you need to repair, replace, upgrade or even add a new system, our</p>
@@ -84,9 +110,51 @@
 					<p>• Exceptional customer service from start to finish</p>
 					<p>• Service and preventative maintenance contracts</p></html>
     			</div>
+    		
+    			<table id="table90">
+    				<tr>
+    					<td id="heati">Heating</td><td id="airc">Air Conditioning</td>
+    				</tr>
+    			</table>
     			
+    			<table id="table">
+						<tr id="th">
+							<th>Presidental</th><th>Commercial</th><th>Industrial</th>
+						</tr>
+						<tr id="tc">
+							<td>Central Systems</td><td>Packaged Units</td><td>Cooling Towers</td>
+						</tr>
+						<tr id="tc">
+							<td>Mini-Split Ductless</td><td>Split Systems</td><td>Chillres</td>
+						</tr>
+						<tr id="tc">
+							<td>Heat Pumps</td><td>Cooling Towers</td><td>Ventilation</td>
+						</tr>
+						<tr id="tc">
+							<td>Air Handlers</td><td>Chillers</td>
+						</tr>
+						<tr id="tc">
+							<td>Condensers</td><td>Ventilation</td>
+						</tr>
+						<tr id="tc">
+							<td>Ventilation</td><td></td>
+						</tr>
+						<tr id="tc">
+							<td>Hot Water / Steam Boilers</td><td>Hot Water / Steam Boilers</td><td>Hot Water / Steam Boilers</td>
+						</tr>
+						<tr id="tc">
+							<td>Forced Air Heating Furnaces</td><td>Forced Air Heating Furnaces</td><td>Unitary Heaters</td>
+						</tr>
+						<tr id="tc">
+							<td>Radiant Heating System</td><td>Unitary Heaters</td><td>Infrared Radiant System</td>
+						</tr>
+						<tr id="tc">
+							<td></td><td>Infrared Radiant System</td>
+						</tr>
+					</table>
+					
     			<div id="heatingblog">
-    				<p id="spacer"></p>
+    				<p id="s2"></p>
     				<p id="heatingheader">Heating</p>
     				<p>Our goal is to keep you warm and comfortable through the winter months. We know which products and systmens will work best for you.</p>
     				<p>Our recommondations will always keep your requirements and budget in mind. We´ll respond to your request and act quickly when you call.</p>
@@ -102,6 +170,7 @@
     					<img src="img/roof.jpg" alt"roof"
     				</span>	
     			</div>
+    		
     			
     			<div id="coolingblog">
     				<p id="coolingheader">Cooling</p>
@@ -120,11 +189,52 @@
     				</span>
     			</div>
     		</div>
+    		<div id="footer">
+    			<div id="s2"></div>
+    			<p id="about">About</p>
+    			<p id="end">Our goal is to keep you warm and comfortable through the winter months. We know which products and systems will work best for you.</p>
+    			<p id="end">Our recommendations will always keep your requirements and budget in mind. We’ll respond to your requests and act quickly when you call.</p>
+    			<p id="end">Nothing is more important than your peace of mind when the weather is cold.</p>
     			
-    		<div id="footer">Footer
-    			
-    			</div>
-    	</div>
+    		<div id="advertisment"><span>
+    			<img src="img/1.jpg" alt"AOSmith">
+    			<img src="img/2.jpg" alt"Fujitus">
+    			<img src="img/3.jpg" alt"White Rodgers">
+    			<img src="img/4.jpg" alt"Utica Boilers">
+    			<img src="img/5.jpg" alt"Taco">
+    			<img src="img/6.jpg" alt"bryant">
+    			<img src="img/7.jpg" alt"Mitsubishi">
+    		</span></div>
+    		<div><span id="advertisment">
+    			<img src="img/8.jpg" alt"Peerless">
+    			<img src="img/9.jpg" alt"Goodman">
+    			<img src="img/10.jpg" alt"Crow Boiler">
+    			<img src="img/11.jpg" alt"Ruud">
+    			<img src="img/12.jpg" alt"Rheem">
+    			<img src="img/13.jpg" alt"Trane">
+    			<img src="img/14.jpg" alt"Sanyo">
+    		</span>
+    		</div>
+    		<div><span id="advertisment">
+    			<img src="img/15.jpg" alt"Burnham">
+    			<img src="img/16.jpg" alt"Ennox">
+    			<img src="img/17.jpg" alt"Bradford White">
+    			<img src="img/18.jpg" alt"Well McLain">
+    			<img src="img/19.jpg" alt"Honneywell">
+    			<img src="img/20.jpg" alt"York">
+    			<img src="img/21.jpg" alt"Carrier">
+    		</span>
+    		</div>
+    		<div><span id="advertisment">
+    			<img src="img/22.jpg" alt"Amana">
+    			<img src="img/23.jpg" alt"Lixaire">
+    			<img src="img/24.jpg" alt"American Standard">
+    		</span>
+    		</div>
+    		<div id="pickup">
+    			<img src="img/pickup.jpg" alt"Servicecars">
+    		</div>
+    		</div>
     	
     	
         <!--[if lt IE 8]>

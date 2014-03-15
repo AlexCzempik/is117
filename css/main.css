@@ -1,4 +1,4 @@
-/*! HTML5 Boilerplate v4.3.0 | MIT License | http://h5bp.com/ */
+	/*! HTML5 Boilerplate v4.3.0 | MIT License | http://h5bp.com/ */
 
 /*
  * What follows is the result of much research on cross-browser styling.
@@ -91,7 +91,8 @@ textarea {
    Author's custom styles
    ========================================================================== */
 body{
-		background-color: grey;
+		background-color: white
+		;
 	}
 
 #wrapper{
@@ -112,7 +113,7 @@ body{
 		letter-spacing:3px;
 		color:white;
 		text-decoration: none;
-		
+		font-family:opensans;
 	}
 #primary_links{
 		background-color: #3f8252;
@@ -149,16 +150,26 @@ body{
 	margin-left:875px;
 	margin-top:-90px
 }
-
+#s1{
+	width:980px;
+	height:25px;
+	background-color:white;
+}
 #content{
-	font-family: arial;
+	width: 980px;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: white;
+	font-family: helvetica;
+	
 }
 
 #callus {
 text-align: center;
 color: #5d5d5d;
 font-size: 36px;
-margin-top: 25px;
+margin-top: 0px;
+font-family: helvetica;
 }
 
 #werdedicated {
@@ -166,6 +177,7 @@ text-align: center;
 color: #5d5d5d;
 font-size: 16px;
 margin-top: 0px;
+font-family: helvetica;
 }
 
 #serving{
@@ -175,6 +187,7 @@ font-size: 14px;
 font-weight: bold;
 margin-top: 20px;
 letter-spacing: 9px;
+font-family: helvetica;
 }
 
 #video{
@@ -182,9 +195,46 @@ letter-spacing: 9px;
 	margin-top:35px;
 }
 
-#likefb img{
+#fbbanner{
+	height: 52px;
 	width: 980px;
-margin-top: 33px;
+	background-color:#475d8f;
+	line-height: 52px;
+	border-radius: 4px;
+	margin-top: 40px;	
+
+		
+	
+}
+
+#fbbanner img{
+	width: 32px;
+	height: 32px;
+	
+}
+#fblogowhitel{
+	margin-left: 17px;
+	line-height: 1;
+	
+}
+
+#likeus{
+	color: white;
+	font-family: helvetica;
+	font-size: 20px;
+	margin-left: 199px;
+	
+}
+
+#fb-like {
+	margin-left: 18px;
+	line-height: 1;
+}
+
+#fblogowhiter{
+	line-height: 1;
+	margin-left:100px
+	
 }
 
 #welcometo{
@@ -193,26 +243,84 @@ margin-top: 33px;
 	margin-top:33px;
 	width: 490px;
 	font-size: 14px;
+	margin-left:1px;
+	font-family:opensans;
+	
 }	
 
 #fullinsured{
 	font-size: 14px;
 	margin-top: -149px;
 	line-height: 0.8;
-	margin-left: 604px;
+	margin-left: 603px;
+	font-family:opensans;
+}
+
+#table90{
+	-webkit-transform: rotate(270deg);
+	font-family:opensans;
+	color:white;
+	height:25px;
+	text-align: center;	
+	font-size:14px;
+	text-transform: uppercase;
+	margin-top: 240px;
+	margin-left: -221px;
+}
+#airc{
+	background-color:#2980b9;
+	width:305px
+		
+}
+
+#heati{
+	background-color: #c0392b;
+	width: 161px
+}
+
+#table {
+	margin-top: -246px;
+	margin-left: 25px;
+	border: 0px solid white;
+	width: 955px;
+	font-family: opensans;
+	color: #777777;
+	font-size: 14px;
+	background-color: #f7f7f7;
+	
+}
+	
+
+#th {
+	text-transform: uppercase;
+	height:66px;
+	border: 0px solid white;
+	font-family: opensans;
+	color: white;
+	font-size: 22px;
+	background-color: #7f8c8d;
+	
+}
+
+#tc{
+	height:40px;
+	border:1px solid #e9e9e9
 }
 
 #heatingblog{
 	background-color: #eef1f5;
+	margin-left: auto;
+	margin-right: auto;
 	width: 100%;
 	height: 402px;
 	text-align: center;
 	font-size: 14px;
 	color: #2c2c2c;
 	line-height: 8px;
+	font-family:opensans;
 	}
 
-#spacer{
+#s2{
 	height:20px;
 }
 
@@ -220,6 +328,7 @@ margin-top: 33px;
 	letter-spacing:9px ;
 	color:#c0392b;
 	font-size:30px;
+	font-family:opensans;
 	
 }
 #letter img{
@@ -229,12 +338,16 @@ margin-top: 33px;
 }
 
 #coolingblog{
-	width: 100%;
+	width: 980px;
+	margin-left: auto;
+	margin-right: auto;
 	height: 402px;
 	text-align: center;
 	font-size: 14px;
 	color: #2c2c2c;
 	line-height: 8px;
+	background-color:white;
+	font-family:opensans;
 }
 
 #coolingheader{
@@ -249,9 +362,42 @@ margin-top: 33px;
 	height: 175px;
 	padding:19px;
 }
+
+#footer {
+	background-color:#eef1f5;
+	height:870px;
+	text-align:center;
 	
+}
+#s2 {
+	height:30px;
 	
+}
+#about {
+	font-size:30px;
+	margin-top:auto;
+	font-family:opensans;
+}
+
+#end{
+	color: #2c2c2c;
+	font-size: 14px;
+	font-family:opensans;
+	line-height:10px;
+}
 	
+#footer img{
+	width: 140px;
+	height: 60px;
+}
+
+#advertisment img {
+	padding-bottom: 35px;	
+}
+#pickup img {
+	width:980px;
+	height:318px;
+}
 	/*
 	   aptanavfs5222055044157429710main.css
 	   Is117
